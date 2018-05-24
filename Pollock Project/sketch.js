@@ -51,8 +51,8 @@ function draw() {
       //draw line with using the last two stored positions
       //reset new lastX and lastY to its last position of mouseX and mouseY
       for (var i = 0; i < positionStore.length - 2; i++) {
-        var lastX = positionStore[positionStore.length - 1][0];
-        var lastY = positionStore[positionStore.length - 1][1];
+        lastX = positionStore[positionStore.length - 1][0];
+        lastY = positionStore[positionStore.length - 1][1];
       }
     }
 
